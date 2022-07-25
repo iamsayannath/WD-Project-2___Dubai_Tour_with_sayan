@@ -19,11 +19,10 @@ header {
 }
 
 header ul li {
-	padding: 10px;
 	margin-right: 10px;
 }
 header ul li a {
-	background-color: white;
+	background-color: yellow;
 	list-style: none;
 	text-decoration: none;
 	color: black;
@@ -33,8 +32,7 @@ header ul li a {
 	border-radius: 10px;
 }
 header ul li a:hover {
-	background-color: black;
-	color: white;
+	background-color: white;
 }
 
 #page-logo a {
