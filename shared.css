@@ -6,12 +6,41 @@ ul {
 	list-style: none;
 	margin: 0;
 	padding: 0;
+	display: flex;
+}
+
+header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	position: absolute;
+	width: 100%;
+	box-sizing: border-box;
+}
+
+header ul li {
+	padding: 10px;
+	margin-right: 10px;
+}
+header ul li a {
+	background-color: white;
+	list-style: none;
+	text-decoration: none;
+	color: black;
+	font-weight: bold;
+	padding: 15px;
+	margin-right: 10px;
+	border-radius: 10px;
+}
+header ul li a:hover {
+	background-color: black;
+	color: white;
 }
 
 #page-logo a {
-	padding: 10px;
+	padding: 25px;
 	font-family: "Oleo Script", sans-serif;
-	color: rgb(202, 202, 131);
+	color: rgb(255, 255, 255);
 	font-size: 50px;
 	text-decoration: none;
 	text-transform: uppercase;
